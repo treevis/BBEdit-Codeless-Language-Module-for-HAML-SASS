@@ -15,8 +15,8 @@
         <dict>
             <key>BBLMLanguageSuffix</key>
             <string><![CDATA[.sass]]></string>
-			<key>BBLMLanguageSuffix</key>
-			<string><![CDATA[.scss]]></string>
+            <key>BBLMLanguageSuffix</key>
+            <string><![CDATA[.scss]]></string>
         </dict>
     </array>
     <key>BBLMColorsSyntax</key>
@@ -28,13 +28,13 @@
     <key>BBLMCommentSuffixDefault</key>
     <string>*/</string>
     <key>BBLMIsCaseSensitive</key>
-	<true/>
+    <true/>
     <key>BBLMScansFunctions</key>
     <true/>
     <key>BBLMSupportsTextCompletion</key>
     <true/>
-	<key>BBLMIsSourceKind</key>
-	<true/>
+    <key>BBLMIsSourceKind</key>
+    <true/>
     <key>BBLMKeywordList</key>
     <array>
         <string><![CDATA[a]]></string>
@@ -42,19 +42,26 @@
         <string><![CDATA[acronym]]></string>
         <string><![CDATA[address]]></string>
         <string><![CDATA[area]]></string>
+        <string><![CDATA[article]]></string>
         <string><![CDATA[aside]]></string>
+        <string><![CDATA[audio]]></string>
         <string><![CDATA[b]]></string>
         <string><![CDATA[base]]></string>
         <string><![CDATA[big]]></string>
+        <string><![CDATA[bdi]]></string>
+        <string><![CDATA[bdo]]></string>
         <string><![CDATA[blockquote]]></string>
         <string><![CDATA[body]]></string>
         <string><![CDATA[br]]></string>
         <string><![CDATA[button]]></string>
+        <string><![CDATA[canvas]]></string>
         <string><![CDATA[caption]]></string>
         <string><![CDATA[cite]]></string>
         <string><![CDATA[code]]></string>
         <string><![CDATA[col]]></string>
         <string><![CDATA[colgroup]]></string>
+        <string><![CDATA[data]]></string>
+        <string><![CDATA[datalist]]></string>
         <string><![CDATA[dd]]></string>
         <string><![CDATA[del]]></string>
         <string><![CDATA[dfn]]></string>
@@ -62,7 +69,10 @@
         <string><![CDATA[dl]]></string>
         <string><![CDATA[dt]]></string>
         <string><![CDATA[em]]></string>
+        <string><![CDATA[embed]]></string>
         <string><![CDATA[fieldset]]></string>
+        <string><![CDATA[figcaption]]></string>
+        <string><![CDATA[figure]]></string>
         <string><![CDATA[footer]]></string>
         <string><![CDATA[form]]></string>
         <string><![CDATA[frame]]></string>
@@ -83,12 +93,16 @@
         <string><![CDATA[input]]></string>
         <string><![CDATA[ins]]></string>
         <string><![CDATA[kbd]]></string>
+        <string><![CDATA[keygen]]></string>
         <string><![CDATA[label]]></string>
         <string><![CDATA[legend]]></string>
         <string><![CDATA[li]]></string>
         <string><![CDATA[link]]></string>
+        <string><![CDATA[main]]></string>
         <string><![CDATA[map]]></string>
+        <string><![CDATA[mark]]></string>
         <string><![CDATA[meta]]></string>
+        <string><![CDATA[meter]]></string>
         <string><![CDATA[nav]]></string>
         <string><![CDATA[noframes]]></string>
         <string><![CDATA[noscript]]></string>
@@ -96,14 +110,24 @@
         <string><![CDATA[ol]]></string>
         <string><![CDATA[optgroup]]></string>
         <string><![CDATA[option]]></string>
+        <string><![CDATA[output]]></string>
         <string><![CDATA[p]]></string>
         <string><![CDATA[param]]></string>
         <string><![CDATA[pre]]></string>
+        <string><![CDATA[progress]]></string>
         <string><![CDATA[q]]></string>
+        <string><![CDATA[rb]]></string>
+        <string><![CDATA[rp]]></string>
+        <string><![CDATA[rt]]></string>
+        <string><![CDATA[rtc]]></string>
+        <string><![CDATA[ruby]]></string>
+        <string><![CDATA[s]]></string>
         <string><![CDATA[samp]]></string>
         <string><![CDATA[script]]></string>
+        <string><![CDATA[section]]></string>
         <string><![CDATA[select]]></string>
         <string><![CDATA[small]]></string>
+        <string><![CDATA[source]]></string>
         <string><![CDATA[span]]></string>
         <string><![CDATA[strike]]></string>
         <string><![CDATA[strong]]></string>
@@ -113,15 +137,21 @@
         <string><![CDATA[table]]></string>
         <string><![CDATA[tbody]]></string>
         <string><![CDATA[td]]></string>
+        <string><![CDATA[template]]></string>
         <string><![CDATA[textarea]]></string>
         <string><![CDATA[tfoot]]></string>
         <string><![CDATA[th]]></string>
         <string><![CDATA[thead]]></string>
+        <string><![CDATA[time]]></string>
         <string><![CDATA[title]]></string>
         <string><![CDATA[tr]]></string>
         <string><![CDATA[tt]]></string>
+        <string><![CDATA[track]]></string>
+        <string><![CDATA[u]]></string>
         <string><![CDATA[ul]]></string>
         <string><![CDATA[var]]></string>
+        <string><![CDATA[video]]></string>
+        <string><![CDATA[wbr]]></string>
         <string><![CDATA[$added_bg_color]]></string>
         <string><![CDATA[$added_color]]></string>
         <string><![CDATA[$alt-text-color]]></string>
@@ -263,10 +293,10 @@
         <string><![CDATA[+unobtrusive-logo]]></string>
         <string><![CDATA[+unstyled-link]]></string>
         <string><![CDATA[@import]]></string>
-		<string><![CDATA[@mixin]]></string>
-		<string><![CDATA[@include]]></string>
-		<string><![CDATA[=]]></string>
-		<string><![CDATA[+]]></string>
+        <string><![CDATA[@mixin]]></string>
+        <string><![CDATA[@include]]></string>
+        <string><![CDATA[=]]></string>
+        <string><![CDATA[+]]></string>
     </array>
     <key>BBLMPredefinedNameList</key>
     <array>
@@ -360,33 +390,33 @@
         <string><![CDATA[(?x:
                 (//.*$) |                               (?# Line comment)
                 (/\*(?>(?:(?>[^*]+)|\*(?!/))*)\*/)      (?# Block comment)
-			)]]></string>
-			<key>Function Pattern</key>
-			<string><![CDATA[(?x:
-				(?P<function_name>
-					@mixin\s[\w-?_?]+(\(.+\))?
-					| @include\s[\w-?_?]+(\(.+\))?
-					| =[\w-?_?]+(\(.+\))?
-					| \+[\w-?_?]+(\(.+\))?
-					| \.[\w-?_?]+
-					| \#[\w-?_?]+
-				)
+        )]]></string>
+        <key>Function Pattern</key>
+        <string><![CDATA[(?x:
+          (?P<function_name>
+            @mixin\s[\w-?_?]+(\(.+\))?
+            | @include\s[\w-?_?]+(\(.+\))?
+            | =[\w-?_?]+(\(.+\))?
+            | \+[\w-?_?]+(\(.+\))?
+            | \.[\w-?_?]+
+            | \#[\w-?_?]+
+          )
         )]]></string>
         <key>Open Statement Blocks</key>
         <string><![CDATA[{]]></string>
         <key>Close Statement Blocks</key>
         <string><![CDATA[}]]></string>
         <key>Identifier and Keyword Character Class</key>
-			<string>0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz^-_%.+=$@#-</string>
+        <string>0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz^-_%.+=$@#-</string>
         <key>String Pattern</key>
         <string><![CDATA[(?x:
-				(?P<string_double>".+?") | (?P<string_single>'.+?')
-			)]]></string>
-			<key>Skip Pattern</key>
-			<string><![CDATA[(?x:
-				(?>
-					(?P>comment) | (?P>string)
-				)
+          (?P<string_double>".+?") | (?P<string_single>'.+?')
+        )]]></string>
+        <key>Skip Pattern</key>
+        <string><![CDATA[(?x:
+          (?>
+            (?P>comment) | (?P>string)
+          )
         )]]></string>
     </dict>
 </dict>
